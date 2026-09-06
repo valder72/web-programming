@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse('<h1 style="color:green;">Hello from the first app</h1>')
+    return HttpResponse('<h1 style="color:blue;">404: Friends Not Found</h1> <p>Try to look outside your window!</p>')
 
 
 def fancy_index(request):
